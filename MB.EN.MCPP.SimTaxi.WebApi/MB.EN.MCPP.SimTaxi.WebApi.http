@@ -1,0 +1,6 @@
+@MB.EN.MCPP.SimTaxi.WebApi_HostAddress = http://localhost:5000
+
+GET {{MB.EN.MCPP.SimTaxi.WebApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
