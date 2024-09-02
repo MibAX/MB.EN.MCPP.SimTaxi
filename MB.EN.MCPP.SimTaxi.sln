@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.Entities
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.Utils", "MB.EN.MCPP.SimTaxi.Utils\MB.EN.MCPP.SimTaxi.Utils.csproj", "{A8062F7B-EEC0-4674-AE82-D2F23AD131AD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.EntityFrameworkCore", "MB.EN.MCPP.SimTaxi.EntityFrameworkCore\MB.EN.MCPP.SimTaxi.EntityFrameworkCore.csproj", "{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A8062F7B-EEC0-4674-AE82-D2F23AD131AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8062F7B-EEC0-4674-AE82-D2F23AD131AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8062F7B-EEC0-4674-AE82-D2F23AD131AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
