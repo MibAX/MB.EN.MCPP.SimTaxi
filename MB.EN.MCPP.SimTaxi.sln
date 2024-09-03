@@ -3,13 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.WebApi", "MB.EN.MCPP.SimTaxi.WebApi\MB.EN.MCPP.SimTaxi.WebApi.csproj", "{E2FD5F78-B087-4C2A-B753-89F0A01E9347}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.EN.MCPP.SimTaxi.WebApi", "MB.EN.MCPP.SimTaxi.WebApi\MB.EN.MCPP.SimTaxi.WebApi.csproj", "{E2FD5F78-B087-4C2A-B753-89F0A01E9347}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.Entities", "MB.EN.MCPP.SimTaxi.Entities\MB.EN.MCPP.SimTaxi.Entities.csproj", "{B0EAAE4E-E7BC-4DDA-80B7-FE6F91CB62B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.EN.MCPP.SimTaxi.Entities", "MB.EN.MCPP.SimTaxi.Entities\MB.EN.MCPP.SimTaxi.Entities.csproj", "{B0EAAE4E-E7BC-4DDA-80B7-FE6F91CB62B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.Utils", "MB.EN.MCPP.SimTaxi.Utils\MB.EN.MCPP.SimTaxi.Utils.csproj", "{A8062F7B-EEC0-4674-AE82-D2F23AD131AD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.EN.MCPP.SimTaxi.Utils", "MB.EN.MCPP.SimTaxi.Utils\MB.EN.MCPP.SimTaxi.Utils.csproj", "{A8062F7B-EEC0-4674-AE82-D2F23AD131AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.EntityFrameworkCore", "MB.EN.MCPP.SimTaxi.EntityFrameworkCore\MB.EN.MCPP.SimTaxi.EntityFrameworkCore.csproj", "{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MB.EN.MCPP.SimTaxi.EntityFrameworkCore", "MB.EN.MCPP.SimTaxi.EntityFrameworkCore\MB.EN.MCPP.SimTaxi.EntityFrameworkCore.csproj", "{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MB.EN.MCPP.SimTaxi.Dtos", "MB.EN.MCPP.SimTaxi.Dtos\MB.EN.MCPP.SimTaxi.Dtos.csproj", "{11ABEB87-0C45-4F3E-9A88-56C859444647}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{211B5586-AAF8-4BBC-9C6B-1DDBF9E18F5F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11ABEB87-0C45-4F3E-9A88-56C859444647}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11ABEB87-0C45-4F3E-9A88-56C859444647}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11ABEB87-0C45-4F3E-9A88-56C859444647}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11ABEB87-0C45-4F3E-9A88-56C859444647}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
