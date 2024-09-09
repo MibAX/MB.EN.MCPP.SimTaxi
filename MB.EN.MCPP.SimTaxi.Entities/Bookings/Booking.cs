@@ -13,7 +13,7 @@ namespace MB.EN.MCPP.SimTaxi.Entities.Bookings
         public DateTime BookingTime { get; set; }
 
         [Column(TypeName = "decimal(6,2)")] // $9999.99
-        public Decimal TotalPrice { get; set; }
+        public decimal TotalPrice { get; set; }
 
         public int? CarId { get; set; }
         public Car? Car { get; set; }
